@@ -8,6 +8,7 @@ $estConnecte = estConnecte();
 if(!isset($_REQUEST['uc']) || !$estConnecte){
      $_REQUEST['uc'] = 'connexion';
 }	 
+echo 'Bonjour débutant';
 $uc = $_REQUEST['uc'];
 switch($uc){
 	case 'connexion':{
